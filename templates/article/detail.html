@@ -2,7 +2,7 @@
 {% block title %}{{ articles.title }}{% endblock %}
 {% block content %}
 <article>
-    <img src="{{ articles.image.url }}" width="500" alt="spot">
+    <img src="{{ articles.image.url }}" width="1000px" alt="spot">
     <h2>{{ articles.title }}</h2>
     <p>{{ articles.text }}</p>
     <pre>Posted at: {{ articles.posted_at|date:"d.m.Y H:i" }}</pre>
